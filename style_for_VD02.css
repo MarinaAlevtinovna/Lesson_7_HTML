@@ -1,0 +1,40 @@
+body {
+    background-color: #F0DC82;
+}
+
+h1 {
+    font-size: 34px;
+    font-family: Comic Sans MS;
+    font-weight: 600;
+    height: 50px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 550px;
+    background-color: #C19A6B;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.photo {
+    height: 20%;
+    padding: 40px;
+}
+
+.info {
+    height: 20%;
+    padding: 40px;
+}
+
+img {
+    position: relative;
+    left: 5%;
+    border-radius: 20px;
+}
