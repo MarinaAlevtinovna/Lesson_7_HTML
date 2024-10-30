@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: red">Главная</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Не главная</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Дополнительная</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Еще одна вкладка</a>
+        </li>
+    </ul>
+    <hr>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="Крокодил Гена.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #dc3545">Крокодил Гена</h5>
+                        <p class="card-text">Крокодил Гена — персонаж книги Эдуарда Успенского «Крокодил Гена и его друзья» (1966) и её продолжений.
+                            Носит красное пальто, белую рубашку, чёрный галстук-бабочку, на голове шляпу, курит трубку, любит играть на гармошке и работает в зоопарке крокодилом (то есть экспонатом).
+                            Характер добрый и отзывчивый.
+                        </p>
+                        <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="Чебурашка.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #dc3545">Чебурашка</h5>
+                        <p class="card-text">Чебурашка — неведомый зверёк, который попал к людям из тропиков. Персонаж был придуман Эдуардом Успенским в 1968 году.
+                            Чебурашка представляет собой пушистое существо с большими круглыми ушами, дружелюбной мордочкой и почти незаметным хвостиком. Сам он маленький, шерсть у него коричневая.
+                            Очень добрый, скромный и трудолюбивый.
+                        </p>
+                        <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="Шапокляк.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #dc3545">Шапокляк</h5>
+                        <p class="card-text">Старуха Шапокляк — героиня детских повестей и мультфильмов, главная антагонистка серии произведений Эдуарда Успенского, противник Чебурашки и крокодила Гены.
+                        Вооружённая рогаткой Шапокляк при поддержке находящейся в её ридикюле крысы Лариски устраивает розыгрыши над невинными жителями города.
+                        </p>
+                        <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Факты о мультфильме
+            </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Необычное имя у главного героя появилось благодаря маленькой девочке и маминой шубе. Малышка путалась в длинных полах и постоянно падала, на что её отец говорил «опять чебурахнулась». Писатель Эдуард Успенский наблюдал эту картину в гостях и запомнил слово. Потом посмотрел его значение в словаре Даля — это глагол обозначает «упасть». Так появился Чебурашка.</p>
+                    <p>В 2016 году в честь 80-летия студии «Союзмультфильм» плюшевого Чебурашку отправили на МКС. Там игрушке предстояло посмотреть мультики вместе с космонавтами, выйти в открытый космос и запустить вымпел киностудии.</p>
+                    <p>В 2008 году в московском детском саду №2550 открыли Музей Чебурашки. Музею подарили телефонную будку, напоминающую ту, в которой жил герой. Возле неё установили фигуры Чебурашки и Гены.</p>
+                    <p>Чебурашка несколько раз был талисманом сборной России на Олимпийских играх. В 2004 году на Олимпиаде в Афинах символом сборной России стал Чебурашка. Он вернулся к этой роли вновь на Олимпиаде 2006 года, но тогда цвет его меха поменяли на белый. На Олимпиаде 2008 года символом сборной был красный Чебурашка, а в 2010 году — синий.</p>
+                    <p>В Японии Чебурашку любят больше, чем в России. В 2001 году в Токио желающие посмотреть советский мультфильм выстраивались в огромные очереди перед кинотеатром. Потом японцы выкупили права и до 2023 года сняли собственный сериал и полнометражный мультфильм об забавном зверьке.</p>
+                </div>
+            </div>
+        </div>
+    <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                О создателях
+            </button>
+            </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <p>Эдуард Успенский придумал персонажа благодаря своему приятелю и его дочери. Когда Успенский был у них в гостях, девочка надела мамину шубу и пыталась ходить в ней по квартире, но всё время спотыкалась и падала. Отец девочки на это говорил: «Опять чебурахнулась». От него же Успенский узнал, что это слово означает «падать», и придумал Чебурашку.</p>
+                <p>Леонид Шварцман придумал образ Чебурашки таким, каким мы его знаем. 34 Изначально у персонажа были маленькие ножки и хвостик, а уши были аккуратными и небольшими, но мультипликаторам это не слишком понравилось. В итоге избавились от ног, вскоре пропал и хвостик.</p>
+                <p>Образ старухи Шапокляк для мультфильма Леонид Шварцман «срисовал» со своей тёщи, Нины Францевны. Ридикюль, причёска и модная шляпка стали узнаваемыми деталями образа героини мультфильма.</p>
+            </div>
+        </div>
+    </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Новый Чебурашка
+            </button>
+            </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <p>Новый фильм «Чебурашка» — российская семейная комедия, вышедшая в 2023 году. Создателями картины стали режиссёр Дмитрий Дьяченко и команда продюсеров и сценаристов из компании Yellow, Black and White.</p>
+                <p>Сюжет: Чебурашка родом из далёкой апельсиновой страны. Чудесным образом он оказывается в провинциальном приморском городке, где обретёт имя, друзей и новый дом. Но прежде ему предстоит пройти через множество приключений</p>
+                <p>Главный друг Чебурашки в новой версии — Гена, но вовсе не крокодил, а суровый старик со сложным характером, который работает садовником. С ним не общается даже его собственная дочь Таня</p>
+                <p>В ролях: Сергей Гармаш, Елена Яковлева, Фёдор Добронравов, Полина Максимова, Сергей Лавыгин, Дмитрий Лысенков и другие.</p>
+            </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
